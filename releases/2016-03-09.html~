@@ -1,0 +1,51 @@
+z<!DOCTYPE html>
+<html>
+  <head>
+    <title>ビールレビューサービスBeerUp、写真を撮るだけでビールの評価を調べる
+    ことができる機能を公開(iOSアプリ) - Pig Brewing, llc</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    &gt; <a href="/">Pig Brewing合同会社</a> &gt; <a href="/releases">ニュースリリース一覧</a>
+    <h1>味の傾向や評価から好みのビールを探せるWEBサービス「BeerUp」を公開</h1>
+    <p>2015年5月19日<br/>
+      Pig Brewing合同会社（代表:中嶋大嗣）</p>
+
+    <hr />
+    <p>味の傾向や評価から好みのビールを探せるWEBサービス「BeerUp（WEB版）」の提供を開始しました。本サービスはビールのレビュー投稿サービスBeerUp（iPhoneアプリ版）から投稿されるレビューの閲覧に特化したサービスです。<br />
+      <a href= "https://beerup.jp" target="_blank">https://beerup.jp</a></p>
+    <hr />
+
+    <p>　BeerUp iPhone版にはすでに1000銘柄以上のビールに関するレビューが投稿されています。WEB版はそれらの情報をアクセスしやすい形で提供することで、利用者が新たに好みのビールを探す際や、ビールを注文する際の下調べに役立つサービスとなるように開発しました。</p>
+
+    <h2>【本サービスの特徴】</h2>
+    <h3>■「味から検索」で味の傾向から好みのビールを見つける</h3>
+    <p>　BeerUpでは多くのレビューで「苦味・酸味・甘味」の強さが記録されているので、単にスコアだけではなく、自分の好みに合うビールを探すことができます。</p>
+    <p>　WEB版では大雑把に味の傾向を選択することで、それに近いビールを検索する機能を公開しました。これにより「かなり苦いが、わずかに甘みのあるビール」や「とにかく味の濃いビール」などを検索することができます。</p>
+
+    <h3>■様々な方法で 新しい銘柄を発見し、ビールに対する興味を高める</h3>
+    <p>　名前による検索や、原産国やスタイルから銘柄を探す機能のほか、独自の仕組みで興味深いレビューや話題性のあるビールをピックアップしています。これにより話題のビール・珍しいビールを手軽に見つけることができます。</p>
+    <p>　また、本サービスは特に日本の地ビールや新商品の情報に強く、国内で今話題のビールの情報を得ることができます。</p>
+
+    <h3>■ 「ロングレビュー」</h3>
+    <p>　WEB版での新機能としてロングレビューの投稿を追加しました。アプリ版の投稿は１つの銘柄に対するレビューであったのに対して、ロングレビューでは「新発売ビールの飲み比べ」や「イベントやお店、ブルワリー見学のレポート」といったビールに関係するあらゆる記事を投稿できます。</p>
+    <p>　現在、ブルワリーやビアバー等の事業者様による自身の製品や店舗等の紹介記事も募集しています。</p>
+
+    <h2>【サービス情報】</h2>
+    <h3>■ BeerUp(WEBサービス)</h3>
+    <p><a href="https://beerup.jp" target="_blank">https://beerup.jp</a></p>
+    <p>スクリーンショット1: <a href="http://pig-brewing.com/releases/images/2015-05-19-1.png" target="_blank">http://pig-brewing.com/releases/images/2015-05-19-1.png</a></p>
+    <p>スクリーンショット2: <a href="http://pig-brewing.com/releases/images/2015-05-19-2.png" target="_blank">http://pig-brewing.com/releases/images/2015-05-19-2.png</a></p>
+
+    <h3>■ ビールのレビュー投稿・記録サービス「BeerUp」iPhone版</h3>
+    <p><a href="https://itunes.apple.com/jp/app/beer-app-birurogu-rebyu-tou/id672754462?mt=8" target="_blank">https://itunes.apple.com/jp/app/beer-app-birurogu-rebyu-tou/id672754462?mt=8</a></p>
+    <p>※旧サービス名: Beer app</p>
+
+    <h2>【今後の予定】</h2>
+    <p>・Android端末等でもレビューの投稿ができる機能を準備中です。</p>
+    <p>・「最もビールが飲みたくなるサービス」を目指して開発を進めていきます。</p>
+
+    <h2>【本リリースに関するお問い合わせ】</h2>
+    <p>E-Mail: dnakajim@pig-brewing.com</p>
+  </body>
+</html>
