@@ -19,7 +19,7 @@ export default function(x, child) {
 				    <div className="inner">
 					      <nav>
 						        <ul>
-							          {['welcome', 'product', 'contact', 'news'].map(menu)}
+							          {['home', 'product', 'contact', 'news'].map(menu)}
 						        </ul>
 					      </nav>
 				    </div>

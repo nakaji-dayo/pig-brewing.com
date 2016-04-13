@@ -2728,7 +2728,7 @@ table {
         transition-delay: 4.25s; }
       @media screen and (max-width: 736px) {
         #sidebar nav > ul > li {
-          margin-left: 0.4em !important; } }
+          margin-left: 0.6em !important; } }
   #sidebar nav a {
     -moz-transition: color 0.2s ease;
     -webkit-transition: color 0.2s ease;
