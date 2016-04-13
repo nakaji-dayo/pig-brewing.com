@@ -48,7 +48,6 @@ function main(sources) {
         .filter(({path}) => path == "/" | path == '/home' ||
                 path == "/product" || path == '/contact')
         .throttle(100)
-        .log('filtered')
         .map(x => {      
           let wsY = window.scrollY;
           var activeElmAppeared = false;
