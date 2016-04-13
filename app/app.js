@@ -72,7 +72,7 @@ function main(sources) {
           .map(x => (_.assign(x, {navItems:
                                   sectionIds.map(id => ({
                                     id: id,
-                                    active: x.history.pathname == `/${id}`
+                                    active: (x.history.pathname == '/' ? '/home' : x.history.pathname) == `/${id}`
                                   }))
                                  })))
           .merge(navItems.map(x => _.assign(x, {navItems: x})))

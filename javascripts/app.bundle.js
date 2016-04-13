@@ -157,7 +157,7 @@
 	    return _.assign(x, { navItems: sectionIds.map(function (id) {
 	        return {
 	          id: id,
-	          active: x.history.pathname == '/' + id
+	          active: (x.history.pathname == '/' ? '/home' : x.history.pathname) == '/' + id
 	        };
 	      })
 	    });
