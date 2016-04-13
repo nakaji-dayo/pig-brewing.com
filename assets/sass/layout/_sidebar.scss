@@ -62,6 +62,10 @@
 							@include vendor('transition-delay', '#{(_duration(activation) * 0.2 * $i) + (_duration(activation) * 0.25)}');
 						}
 					}
+
+          @include breakpoint(small) {
+              margin-left: 0.4em !important;
+          }
 				}
 			}
 
@@ -179,7 +183,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
-			display: none;
-		}
+		/* @include breakpoint(small) { */
+		/* 	display: none; */
+		/* } */
 	}
