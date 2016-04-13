@@ -57,7 +57,8 @@ function main(sources) {
             .map(id => {
               let elm = domCache[id] || (document.getElementById(id));
               if (!elm) return {id: id};
-              var isActive = !activeElmAppeared && wsY >= elm.offsetTop;
+              // メニューが上部の時にスクロール位置の調整をすべきだが、固定で調整している
+              var isActive = !activeElmAppeared && wsY + 56 >= elm.offsetTop;
               if (isActive) {
                 activeElmAppeared = true;
               }
