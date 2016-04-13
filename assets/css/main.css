@@ -1987,6 +1987,15 @@ input[type="radio"] + label:before {
   .image img {
     border-radius: 0.25em;
     display: block; }
+  .image.pic img {
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto; }
+  @media screen and (max-width: 980px) {
+    .image.pic img {
+      width: 100%;
+      max-width: 400px; } }
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {

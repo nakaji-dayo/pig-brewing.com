@@ -21,7 +21,7 @@ export default function(x) {
 			  {/* Product */}
 			  <section id="product" className="wrapper style2 spotlights">
 			      <section>
-			          <span className="image"><img src="images/beerup-pic.jpg" width="438 "alt="BeerUp Screen Shot" data-position="center center" /></span>
+			          <span className="image pic"><img src="images/beerup-pic@2x.jpg" alt="BeerUp Screen Shot" attributes={{"data-position": "center center"}} /></span>
 			          <div className="content">
 			              <div className="inner">
 			                  <h2>BeerUp</h2>
