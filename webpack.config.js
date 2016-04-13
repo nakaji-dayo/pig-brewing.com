@@ -18,6 +18,6 @@ module.exports = {
     alias: {
       vex: 'vex-js'
     }
-  },
-  devtool: 'inline-source-map'
+  }
+  //devtool: 'inline-source-map'
 };
