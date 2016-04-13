@@ -7,7 +7,7 @@ export default function(x) {
   return (
     <div>
 		    {/* Intro */}
-			  <section id="welcome" className="wrapper style1 fullscreen fade-up">
+			  <section id="home" className="wrapper style1 fullscreen fade-up">
 			      <div className="inner">
 			          <h1>Pig Brewing, llc <img src="/images/beerbuta.png" width="64"/></h1>
 			          {/* <p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br /> */}

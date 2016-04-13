@@ -4,10 +4,10 @@ import Cycle from '@cycle/core';
 import {makeDOMDriver, hJSX} from '@cycle/dom';
 
 export default function(x, child) {
-  const menu = (path) => (
+  const menu = (item) => (
     <li>
-        <a href={`#${path}`} className={x.history.pathname == `/${path}` ? 'active' : ''}>
-            {path}
+        <a href={`#${item.id}`} className={item.active ? 'active' : ''}>
+            {item.id}
         </a>
     </li>
   );
@@ -19,7 +19,7 @@ export default function(x, child) {
 				    <div className="inner">
 					      <nav>
 						        <ul>
-							          {['home', 'product', 'contact', 'news'].map(menu)}
+							          {x.navItems.map(menu)}
 						        </ul>
 					      </nav>
 				    </div>

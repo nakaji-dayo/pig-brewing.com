@@ -37,9 +37,47 @@ function main(sources) {
     let mount$ = routing$.filter(x => x.route.value.handler == component).log('route');
     componentsOutput.push(component(sources, mount$));
   }
-  let childDOM$ = Rx.Observable.merge.apply(this, componentsOutput.map(x => x.DOM$));
-  const DOM$ = 
-          routing$.combineLatest(childDOM$, view);
+  let childDOM$ = rx.Observable.merge.apply(this, componentsOutput.map(x => x.DOM$));
+
+  const sectionIds = ['home', 'product', 'contact', 'news'];
+  var domCache = {};
+  let navItems = rx.Observable.fromEvent(window, 'scroll')
+        .withLatestFrom(sources.History, (x,y) => { // view内に対する操作でないので、明示的にルートで動作を制限する必要がある。
+          return {event: x, path: y.pathname};
+        })
+        .filter(({path}) => path == "/" | path == '/home' ||
+                path == "/product" || path == '/contact')
+        .throttle(100)
+        .log('filtered')
+        .map(x => {      
+          let wsY = window.scrollY;
+          var activeElmAppeared = false;
+          return _.chain(sectionIds)
+            .clone()
+            .reverse()
+            .map(id => {
+              let elm = domCache[id] || (document.getElementById(id));
+              if (!elm) return {id: id};
+              var isActive = !activeElmAppeared && wsY >= elm.offsetTop;
+              if (isActive) {
+                activeElmAppeared = true;
+              }
+              return {id: id, active: isActive};
+            })
+            .reverse()
+            .value();
+        });
+
+  const DOM$ = routing$
+          .map(x => (_.assign(x, {navItems:
+                                  sectionIds.map(id => ({
+                                    id: id,
+                                    active: x.history.pathname == `/${id}`
+                                  }))
+                                 })))
+          .merge(navItems.map(x => _.assign(x, {navItems: x})))
+          .combineLatest(childDOM$, view);
+
   
   return {
     DOM: DOM$
