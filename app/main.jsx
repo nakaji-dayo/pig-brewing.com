@@ -29,8 +29,8 @@ export default function(x) {
                             ビールを飲んだ記録を写真、味・香りと共に残せます。</p>
                         {/* <p>銘柄とスコアのみの手軽なレビューと「味・香り」と言った詳細なレビューの両方ができ、単にスコアが高いかだけでなく「自分の好みに合うビールか？」を判断できます。</p> */}
 			                  <ul className="actions">
-			                      <li><a href="https://beerup.jp" className="button" target="_blank">Web</a></li>
-			                      <li><a href="https://itunes.apple.com/jp/app/beerup-birunorebyu-tou-gao/id672754462?mt=8" className="button" target="_blank">App Store</a></li>
+			                      <li><a href="https://beerup.jp" className="button dark" target="_blank">Web</a></li>
+			                      <li><a href="https://itunes.apple.com/jp/app/beerup-birunorebyu-tou-gao/id672754462?mt=8" className="button dark" target="_blank">App Store</a></li>
 			                  </ul>
 			              </div>
 			          </div>

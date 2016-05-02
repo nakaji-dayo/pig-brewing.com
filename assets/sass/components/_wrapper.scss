@@ -40,6 +40,10 @@
 		}
 
 		&.style2 {
+			  color: _palette(fg-dark);
+        	h1, h2, h3, h4, h5, h6 {
+		          color: _palette(fg-dark);
+          }
 			background-color: _palette(accent2);
 		}
 

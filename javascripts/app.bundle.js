@@ -36151,7 +36151,7 @@
 																																	null,
 																																	(0, _dom.hJSX)(
 																																					'a',
-																																					{ href: 'https://beerup.jp', className: 'button', target: '_blank' },
+																																					{ href: 'https://beerup.jp', className: 'button dark', target: '_blank' },
 																																					'Web'
 																																	)
 																													),
@@ -36160,7 +36160,7 @@
 																																	null,
 																																	(0, _dom.hJSX)(
 																																					'a',
-																																					{ href: 'https://itunes.apple.com/jp/app/beerup-birunorebyu-tou-gao/id672754462?mt=8', className: 'button', target: '_blank' },
+																																					{ href: 'https://itunes.apple.com/jp/app/beerup-birunorebyu-tou-gao/id672754462?mt=8', className: 'button dark', target: '_blank' },
 																																					'App Store'
 																																	)
 																													)
